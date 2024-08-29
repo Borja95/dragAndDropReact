@@ -1,0 +1,45 @@
+
+
+.main {
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  position: relative;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+}
+
+.containerDragging {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  z-index: 300;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+  border-radius: 8px; 
+}
+
+.divCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dragging{
+  opacity: 0.4;
+}
